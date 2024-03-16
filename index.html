@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Station - Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5 move-left">
+        <h1 class="text-center">Cloud Station</h1>
+        <div class="text-center mb-3" id="city-name"></div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="search-box" placeholder="Enter city name">
+            <div class="input-group-append">
+                <button class="btn btn-purple" type="button" id="search-button"><i class="fas fa-search"></i> Get Weather</button>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-purple" type="button" id="geolocation-button"><i class="fas fa-map-marker-alt"></i> Get Weather by Geolocation</button>
+        </div>
+        <div id="weather-details" class="weather-details">
+            <p><i class="fas fa-thermometer-half"></i> <span id="temperature"></span></p>
+            <p><i class="fas fa-tint"></i> <span id="humidity"></span></p>
+            <p><i class="fas fa-cloud"></i> <span id="description"></span></p>
+            <p><i class="fas fa-sun"></i> <span id="sunrise"></span></p>
+            <p><i class="fas fa-moon"></i> <span id="sunset"></span></p>
+        </div>
+        <div id="geolocation-display" class="geolocation-display"></div>
+    </div>
+
+    <div class="container mt-5 hourly-forecast">
+        <h2 class="text-center">Hourly Forecast</h2>
+        <div id="hourly-forecast" class="forecast-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
