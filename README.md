@@ -26,3 +26,7 @@
   <li>Optionally, you can click on the "Get Weather by Geolocation" button to fetch weather information based on your current location.</li>
   <li>The application will display the current weather conditions and the hourly forecast for the selected city.</li>
 </ol>
+
+
+<h1>THE APP</h1><img width="1394" alt="Screenshot 2024-03-16 at 3 30 13 PM" src="https://github.com/habibaa-saleem/WeatherApp/assets/157981659/8352fb50-6e57-4706-a19d-a1a7075cf979">
+<img width="1396" alt="Screenshot 2024-03-16 at 3 31 09 PM" src="https://github.com/habibaa-saleem/WeatherApp/assets/157981659/2e450885-0964-4288-ac28-fc7efca12c2a">
