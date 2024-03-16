@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('peakpx.jpg'); 
+    background-size: cover:
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the transparency as needed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(193, 171, 228, 0.616);
+    text-align: center;
+    margin-left: auto; /* Align to the right */
+    margin-right: 20px; /* Provide spacing from the right */
+}
+.btn-purple:hover {
+    background-color: #9378af; 
+}
+
+.hourly-forecast {
+    margin-top: auto;
+    max-width: 300px; /* Adjust maximum width to fit content */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the transparency as needed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(193, 171, 228, 0.616);
+    display: grid;
+
+}
+
+/* Additional styling for forecast items */
+.forecast-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.forecast-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
